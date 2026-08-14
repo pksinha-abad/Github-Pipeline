@@ -4,3 +4,10 @@ resource "azurerm_resource_group" "rg1" {
   location = "East US"
 
 }
+
+resource "azurerm_resource_group" "rg2" {
+
+  name     = "rg-github-actions-demo1"
+  location = "East US"
+
+}
